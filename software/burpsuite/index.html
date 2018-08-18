@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>B-SAF-E</title>
+		<link rel="icon" href="http://prithvik.ml/logo.ico" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="http://prithvik.ml/main.css" />
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					
+				
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Burp-Suite</h1>
+							<span class="image main"><img src="http://jameelnabbo.com/wp-content/uploads/2016/11/Burp-Suite.jpg" alt="" /></span>
+							<p>Burp or Burp Suite is a graphical tool for testing Web application security. The tool is written in Java and developed by PortSwigger Security.</p>
+							
+							<section>
+								
+									<div class="row">
+									<h3>Metasploit Framework</h3>
+										<div class="(medium)">
+											<ol>
+												<li>In Burp, everything starts with pointing your favorite browser to Burp’s proxy. It lets you tamper the request and response the way you want it! You can change form methods from GET to POST or vice-versa, unhide hidden fields, enable disabled fields, remove secure flag from cookie and many things. The HTTP History tab is an index of all your requests, which let’s you to plan your next actions.</li>
+												<li>Target module is like your Desktop which lets you to navigate to your next action.
+
+The Scope lets you focus on your target range. In the Include in Scope section, You can give an URL or a regular expression to match your target. If you want to test everything except some set of URLs, you can exclude them from your scope in the second section.
+
+Site map sub tab lists all your items. You can save the items for later use. Found some of the items interesting? You can send it to other modules for further investigation. You can also limit what you want to see. The filter lets select on various factors such as file extensions, HTTP Response code, In-scope items, Only parameterized requests and others.</li>
+												<li>The automated Active scanner can interact with your web application and can detect simple security issues like if the password is being submitted in GET method or advanced vulnerabilities like Remote Code Execution and SQL Injections. You can set the speed of scanning, pause and resume, choose scan areas and more.
+
+You may be allowed to scan your client’s application in a particular time frame. In that case you can make use of Schedule Task to let burp to scan only in a specific time slab.
+
+Once it is done with scanning, the result contains a detailed descriptions about the issue, including request tried, prof-of-concept response and suggested fix. It also lets you to generate report in various formats and options, that can be submitted to your client.</li>
+												<li>Repeater is my most favorite module in Burp. You can select a request from Target or other sources and send it to Repeater to further tampering and play-around with the request by changing the data being sent, request method, cookie values and many other client side values. You can also send a brand new request as well.</li>
+												<li>Burp Intruder is meant for exploitation and automating attacks. Most of the attacks against web applications are about sending a lot of data and making sense of the responses. Therefore, Intruder is a very good and efficient request sender and response collector. The tool is incredibly flexible and infinitely customizable. That is great once you have the hang of it, but can be a bit overwhelming for someone just starting out. The best way to get started is to find a request that has parameters which can be fuzzed. A login form is a good example where we can check for weak credentials by simulating a dictionary attack using the Intruder tool</li>
+												<li>Spidering or web crawling, as it is better known, is the process of automatically following all the links on a web page to discover both static and dynamic web resources of the web application. Burp uses the Spider tool to automate the mapping of an application. Complete manual testing and fill up the Target site map with what is currently visible to the browser and Burp Suite. Spidering, or crawling, of a website is a pretty intensive and performance-hungry activity. So use it only when required.</li>
+												<li>Decoder tool in Burp Suite does the job of encoding and decoding data. Applications need to encode data while transmitting it or, in many cases, as a security measure. Encoding is not a security measure but a lot of developers mistake it to be. A web application penetration tester needs to be able to understand the type of encoding that has been applied and then successfully decode the piece of data.</li>
+												<li>Sequencer is an interesting tool that comes with Burp Suite. Sequencer allows us to test how random the data is. Applications require different types of sufficiently random tokens for a multitude of things, for example, session IDs, anti-CSRF tokens, password reset tokens, user account activation tokens, and more. The basic question that we try to answer is that given enough number of tokens, will the randomness of the tokens be enough? Will a large enough sample of tokens reveal any patterns that allow us to guess a token value that might have been generated in the past or might occur in the future? A good place to use the Sequencer tool is when you suspect that developers have tried to use their own code to create what they feel are random values, and that additionally those values are being used for some kind of authentication in the application.</li>
+												<li>Comparer is useful when you want to see how different values for parameters and headers enable subtle changes in the responses that you receive. It is useful to see how the application reacts to a valid user, invalid password combination compared to an invalid user and invalid password combination. This can aid in enumerating usernames.
+
+Many times with Blind SQL injection, there can be tiny differences in HTTP responses, and the tool can help you identify exactly what is different.</li>
+											</ol>
+										</div>
+										
+									</div>
+							</section>
+							
+							
+						</div>
+					</div>
+
+				
+			</div>
+
+		<!-- Scripts -->
+			
+			<script src="http://prithvik.ml/main.js"></script>
+
+	</body>
+</html>
